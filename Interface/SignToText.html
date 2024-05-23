@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Real-time Hand Sign Recognition</title>
+    <link rel="stylesheet" href="./interface.css">
+</head>
+<body>
+<h1>Real-time Hand Sign Recognition</h1>
+<div id="container">
+    <div id="video-container">
+        <video id="video" width="640" height="480" autoplay></video>
+        <canvas id="canvas" width="640" height="480" style="display:none;"></canvas>
+    </div>
+    <div id="result-container">
+        <h2>Results</h2>
+        <div id="result">Waiting for results...</div>
+    </div>
+</div>
+<div id="suggestions"></div> <!-- Conteneur pour les suggestions de mots -->
+<div id="sentence"></div>     <!-- Affichage de la phrase en cours de construction -->
+<div id="currentWord"></div>  <!-- Affichage du mot en cours de construction -->
+
+<script src="./code.js"></script>
+</body>
+</html>

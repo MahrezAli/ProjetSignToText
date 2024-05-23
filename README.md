@@ -9,9 +9,8 @@ Le Projet contient 3 Dossiers :
         model.p qui correspond à notre modèle RandomForest
         Requirements.txt qui contient les modules ou librairies à installer dans l'nevironnement docker
 
-    Pour créer l'image, il faut se mettre dans le répertoir modelDocker puis executer: ```docker build -t hand_sign_recognition:latest .```
-
-    Pour executer l'image, il faut executer la commande: ```docker run -p 5000:5000 hand_sign_recognition:latest```
+     -    Pour créer l'image, il faut se mettre dans le répertoir modelDocker puis executer: ```docker build -t hand_sign_recognition:latest .```
+     -    Pour executer l'image, il faut executer la commande: ```docker run -p 5000:5000 hand_sign_recognition:latest```
 
 -    Interface qui pour tester le modèle sur un site web correspond à notre interface web: Il y a 3 fichiers:
         SignToText.html qui correspond à la page web

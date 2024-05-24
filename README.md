@@ -17,3 +17,5 @@ Le Projet contient 3 Dossiers :
         code.js qui est le code javascript pour requeter le modèle mais aussi pour afficher les résulats prédit sur la page HTML
         interface.css : code css pour présenter la page
 
+     !!! Sur linux, ce dossier doit être mis sur le dossier www
+
